@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5EAF2; /* Серовато-голубой цвет */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D1D7E8; /* Более темный оттенок серовато-голубого цвета */
+}
+
+nav li {
+    padding: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #C4CDD9; /* Еще более темный оттенок серовато-голубого цвета */
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    border-bottom: 2px solid #C4CDD9;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #D1D7E8;
+    text-align: center;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel{
+    display: flex;
+    transition: transform 0.5s;
+}
+.carousel-slide{
+    flex: 0 0 100%;
+}
+
+.carousel img{
+    width: 100%;
+    height: auto;
+}
